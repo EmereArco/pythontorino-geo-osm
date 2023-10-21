@@ -1,0 +1,31 @@
+#GEO content
+-dati geografici vs dati spaziali
+-dati vettoriali raster e miscellaneous
+-formati dati
+-sistemi di riferimento
+-operazioni spaziali di base
+#Geo Python Library
+#OSM content
+-progetto 
+-modello dati
+-dimensione world/chage/historical/differenza user non user
+-progetti terzi (taginfo, analysis, osmcha...)
+-contribuire (id, josm, other app)
+-scaricare(osm website, pacchetti predisposti[geofabrick, hotanalytics, ..], overpass)
+#OSM Python Library (specificare quali permettono anche la scrittura)
+Python Overpass API - Python wrapper for the OpenStreetMap Overpass API
+https://wiki.openstreetmap.org/w/images/e/ed/Overpass-examples-IT-1.5.pdf
+https://osm-queries.ldodds.com/tutorial/index.html
+https://wiki.openstreetmap.org/wiki/SPARQL_vs_Overpass_QL_examples
+osmapi - a python class to communicate with OpenStreetMap API v0.6 
+osmcha - OSM Changeset Analyser, osmcha, is a Python package to detect suspicious OSM changesets. 
+It was designed to be used with osmcha-django, but also can be used standalone or in other projects.
+OSMPythonTools -python package OSMPythonTools provides easy access to OpenStreetMap related services, 
+among them an Overpass endpoint, Nominatim, and the OSM API.
+OSMnx - Python package to easily download, model, analyze, and visualize street networks and 
+other geospatial features from OpenStreetMap.
+Pyrosm - Python library for reading OpenStreetMap from Protocolbuffer Binary Format -files (*.osm.pbf) 
+into Geopandas GeoDataFrames. 
+the main difference between pyrosm and OSMnx is that OSMnx reads the data using an OverPass API, 
+whereas pyrosm reads the data from local OSM data dumps that are downloaded from the PBF data providers (Geofabrik, BBBike). 
+This makes it possible to parse OSM data faster and make it more feasible to extract data covering large regions.
